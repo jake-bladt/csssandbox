@@ -1,6 +1,9 @@
+@charset 'utf-8';
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+
 h1 {
   font-family: 'Arvo', Helvetica, sans-serif;
-  font-size: 9em;
+  font-size: 6em;
   font-weight: bold;
   letter-spacing: -0.04em;
   color: #fff;
