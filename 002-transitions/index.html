@@ -8,7 +8,7 @@
       padding: 25px;
     }
     body > div {
-      width:283px;
+      width:203px;
       height:98px;
       background:#676470;
       transition:all 0.3s ease;
@@ -57,15 +57,32 @@
     {
       border-radius: 25%;
     }
+
+    .extrude:hover
+    {
+      box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+      -webkit-transform: translateX(-3px);
+      transform: translateX(-3px);
+    }
+
+    .inset:hover
+    {
+      box-shadow: inset 0 0 0 25px #53a7ea;
+    }
     
     </style>
 </head>
 <body>
-    <div class="fade">Fade In</div>
-    <div class="chameleon">Blue</div>
-    <div class="grow">Grow</div>
-    <div class="shrink">Shrink</div>
-    <div class="rotate">Rotate</div>
-    <div class="oval">Pucker</div>
+  <div class="fade">Fade In</div>
+  <div class="chameleon">Blue</div>
+  <div class="grow">Grow</div>
+  <div class="shrink">Shrink</div>
+  <div class="rotate">Rotate</div>
+  <div class="oval">Pucker</div>
+  <div class="extrude">Extrude</div>
+  <div class="inset">Inset</div>
 </body>
 </html>
