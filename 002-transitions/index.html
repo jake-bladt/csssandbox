@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>CSS Transitions</title>
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
   <style type="text/css">
     body {
@@ -27,13 +28,44 @@
       opacity:1;
     }
 
+    .grow:hover
+    {
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+
+    .shrink:hover
+    {
+      -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+
     .chameleon:hover {
       background:#53a7ea;
-    }    
+    }
+
+    .rotate:hover
+    {
+      -webkit-transform: rotateZ(-30deg);
+      -ms-transform: rotateZ(-30deg);
+      transform: rotateZ(-30deg);
+    }
+
+    .oval:hover
+    {
+      border-radius: 25%;
+    }
+    
     </style>
 </head>
 <body>
     <div class="fade">Fade In</div>
-    <div class="chameleon">Color Change</div>
+    <div class="chameleon">Blue</div>
+    <div class="grow">Grow</div>
+    <div class="shrink">Shrink</div>
+    <div class="rotate">Rotate</div>
+    <div class="oval">Pucker</div>
 </body>
 </html>
