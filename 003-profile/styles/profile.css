@@ -98,4 +98,6 @@ h3 {
 
 .btn:hover {
   background: #35586C;
+  border: solid 2px silver;
+  cursor: pointer;
 }
