@@ -57,4 +57,11 @@ table {
   display: block;
   width: 960px;
   background: white;
+  padding: 12px;
+  float: left;
+  overflow: hidden;
+}
+
+img {
+  float: right;
 }
