@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-family: 'Arvo', sans-serif;
+  margin: 40px;
+  background: black;
 }
 
 ol, ul {
@@ -49,4 +51,10 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.profile-content {
+  display: block;
+  width: 960px;
+  background: white;
 }
