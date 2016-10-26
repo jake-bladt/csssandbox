@@ -28,13 +28,7 @@ ul.sections li a {
   color: #000;
   display: block;
   width: 200px;
-
-  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
-  transition: font-size 0.3s ease, background-color 0.3s ease;
-
+  transition: 0.3s ease;
 }
 
 ul.sections li a:hover {
