@@ -2,6 +2,10 @@ body {
   font-family: 'Lato'
 }
 
+.sidebar {
+  width: 200px;
+}
+
 li.sections {
-  
+
 }
