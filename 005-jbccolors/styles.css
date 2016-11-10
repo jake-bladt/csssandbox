@@ -30,7 +30,7 @@ div.textprimary {
 }
 
 div.callout {
-  background: #f07830;
+  background: #e38d0b;
   width: 80px;
   height: 80px;
 }
@@ -41,10 +41,13 @@ div.btn {
   text-align: center;
   clear: both;
   font-size: 16pt;
-  font-weight: bold;
+  font-variant: small-caps;
   width: 90px;
   padding: 10px;
   border-radius: 12px;
   margin: 20px;
 }
 
+div.btn:hover {
+  background: #ff6600;
+}
