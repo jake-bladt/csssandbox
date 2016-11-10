@@ -46,6 +46,7 @@ div.btn {
   padding: 10px;
   border-radius: 12px;
   margin: 20px;
+  transition: background 0.3s;
 }
 
 div.btn:hover {
