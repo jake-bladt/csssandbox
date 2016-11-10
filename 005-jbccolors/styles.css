@@ -3,11 +3,12 @@ body {
 }
 
 h1 {
-  color: #3a3a3a;
+  color: #202020;
 }
 
 div.color-line {
   float:left;
+  margin-bottom:20px;
 }
 
 div.primary {
@@ -23,7 +24,7 @@ div.secondary {
 }
 
 div.textprimary {
-  background: #3a3a3a;
+  background: #202020;
   width: 120px;
   height: 80px;
 }
@@ -33,3 +34,17 @@ div.callout {
   width: 80px;
   height: 80px;
 }
+
+div.btn {
+  background: #f07830;
+  color: white;
+  text-align: center;
+  clear: both;
+  font-size: 16pt;
+  font-weight: bold;
+  width: 90px;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 20px;
+}
+
