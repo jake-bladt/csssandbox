@@ -16,7 +16,7 @@
         <small>and am reasonably proud of</small>
       </h2>
 
-      <code>
+      <pre>
   var getVertex = function(intercept, slope, offset, inversionFn) {
     // Special cases for m at 0 and NaN
     if(slope === 0)  return { x: intercept.x + offset * inversionFn(), y: intercept.y };
@@ -27,8 +27,7 @@
     var deltaY = deltaX / slope;
 
     return { x: intercept.x + deltaX * inversionFn(), y: intercept.y + deltaY * inversionFn() }
-  }
-      </code>
+  }</pre>
 
       <p>I also know bits like <code>ps</code> and <code>grep</code>.</p>
 
