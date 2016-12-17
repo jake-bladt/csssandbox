@@ -15,20 +15,8 @@
       <div class="panel panel-default">
         <div class="panel-heading">Default Heading</div>
         <div class="panel-body">
-          <h3>Code Sample</h3>
-                <pre>
-  var getVertex = function(intercept, slope, offset, inversionFn) {
-    // Special cases for m at 0 and NaN
-    if(slope === 0)  return { x: intercept.x + offset * inversionFn(), y: intercept.y };
-    if(isNaN(slope)) return { x: intercept.x, y: intercept.y + offset * inversionFn() };
-
-    var squaredOffset = Math.pow(offset, 2.0);
-    var deltaX = Math.sqrt(squaredOffset / (slope + 1.0));
-    var deltaY = deltaX / slope;
-
-    return { x: intercept.x + deltaX * inversionFn(), y: intercept.y + deltaY * inversionFn() }
-  }</pre>
-
+          <h3><span class="glyphicon glyphicon-book"></span> readme.txt</h3>
+          <p>I'm not sure if this is what github uses to display markdown, but it definitely reminds me of that.</p>
         </div>
         <div class="panel-footer">Default Footer</div>
       </div>
