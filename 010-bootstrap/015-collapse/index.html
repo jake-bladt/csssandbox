@@ -12,7 +12,20 @@
         Jake Bladt
         <small>codes</small>
       </h1>
-      <button data-toggle="collapse" class="btn btn-primary btn-large">Show Code</button>
+            <pre id="getVertex" class="collapse">
+  var getVertex = function(intercept, slope, offset, inversionFn) {
+    // Special cases for m at 0 and NaN
+    if(slope === 0)  return { x: intercept.x + offset * inversionFn(), y: intercept.y };
+    if(isNaN(slope)) return { x: intercept.x, y: intercept.y + offset * inversionFn() };
+
+    var squaredOffset = Math.pow(offset, 2.0);
+    var deltaX = Math.sqrt(squaredOffset / (slope + 1.0));
+    var deltaY = deltaX / slope;
+
+    return { x: intercept.x + deltaX * inversionFn(), y: intercept.y + deltaY * inversionFn() }
+  }</pre>
+
+      <button data-toggle="collapse" class="btn btn-primary btn-large" data-target="#getVertex">Show Code</button>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.js"></script>  
